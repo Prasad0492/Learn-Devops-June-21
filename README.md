@@ -1,24 +1,20 @@
-Prerequsites [To setup Lab environment]
+# Roadmap of Training
 
-Road-map :
+* Road-map
 
-1. DevOps introduction and Prerequsites.
-2. Git 
-3. Maven
-4. Terraform
-5. Ansible
-6. Docker 
-7. Kubernetes
-8. Jenkins
+  * Devops Introductions & Prerequsites
+    * Prerequsites [To setup Lab environment]
+  * Git  
+  * Maven 
+  * Terraform 
+  * Ansible
+  * Docker
+  * Kubernetes
+  * Jenkins
+    
+* Feedback - https://docs.google.com/forms/d/e/1FAIpQLSd3pY3ubtESrgpMhGO_OAxWe_SthUNXaaQ89zwMc95yLEGx5A/viewform?usp=sf_link
 
-Feedback :
-
-You can provide your feedback about training at any point in time :
-https://docs.google.com/forms/d/e/1FAIpQLSd3pY3ubtESrgpMhGO_OAxWe_SthUNXaaQ89zwMc95yLEGx5A/viewform?usp=sf_link
-
-
-
-Contact me :
-
-Email : vijayprabhu.cs@gmail.com
-Mobile : +918056375375
+# Contact me:
+* Email     : vijayprabhu.cs@gmail.com
+* Mobile    : +918056375375
+* Linkedin  : https://www.linkedin.com/in/prabhu-thangavel-b1a02963/
