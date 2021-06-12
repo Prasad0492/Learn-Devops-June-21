@@ -10,7 +10,7 @@
 * Kubernetes
 * Jenkins
     
-* Feedback - https://docs.google.com/forms/d/e/1FAIpQLSd3pY3ubtESrgpMhGO_OAxWe_SthUNXaaQ89zwMc95yLEGx5A/viewform?usp=sf_link
+* Feedback: https://docs.google.com/forms/d/e/1FAIpQLSd3pY3ubtESrgpMhGO_OAxWe_SthUNXaaQ89zwMc95yLEGx5A/viewform?usp=sf_link
 
 # Contact me:
 * Email     : vijayprabhu.cs@gmail.com
