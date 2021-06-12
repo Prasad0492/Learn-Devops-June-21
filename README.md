@@ -2,15 +2,15 @@
 
 * Road-map
 
-  * Devops Introductions & Prerequsites
-    * Prerequsites [To setup Lab environment]
-  * Git  
-  * Maven 
-  * Terraform 
-  * Ansible
-  * Docker
-  * Kubernetes
-  * Jenkins
+* Devops Introductions & Prerequsites
+* Prerequsites [To setup Lab environment] 
+* Git  
+* Maven 
+* Terraform 
+* Ansible
+* Docker
+* Kubernetes
+* Jenkins
     
 * Feedback - https://docs.google.com/forms/d/e/1FAIpQLSd3pY3ubtESrgpMhGO_OAxWe_SthUNXaaQ89zwMc95yLEGx5A/viewform?usp=sf_link
 
