@@ -1,7 +1,5 @@
 # Roadmap of Training
 
-* Road-map
-
 * Devops Introductions & Prerequsites
 * Prerequsites [To setup Lab environment] 
 * Git  
