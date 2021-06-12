@@ -1,0 +1,74 @@
+1. Install Virtual box: [In laptop]
+   Link : https://www.virtualbox.org/wiki/Downloads
+
+2. Install Vagrant:[In laptop]
+   Link : https://www.vagrantup.com/downloads
+
+3. Download VSCode:[In laptop]
+   Link : https://code.visualstudio.com/download
+  
+4. Open one AWS account:
+   Link : https://aws.amazon.com/console/
+
+5. Create shared folder [In any drive on your laptop]
+   [Folder structure]
+   D drive :
+    - Shared 
+     - data
+     
+6. Open VScode:
+   Navigate to File -> Open -> Select your shared folder
+  
+7. Run Vagrant command:
+   Click on folder data under shared.
+   Run command "vagrant init"
+   Note : You can find "Vagrantfile" which will be created automatically.
+   
+8. Open "Vagrantfile" Delete all lines and update below code.
+
+[Code]
+
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+Vagrant.configure("2") do |config|
+  config.vm.define "Master-node" do |vm1|
+    vm1.vm.hostname = "Master"
+    vm1.vm.box = "ubuntu/trusty64"
+    vm1.vm.network "private_network", ip: "192.168.33.10"
+    vm1.vm.network "forwarded_port", guest: 8080, host: 9000, host_ip: "127.0.0.1", auto_correct: true
+    vm1.vm.network "forwarded_port", guest: 80, host: 9001, host_ip: "127.0.0.1", auto_correct: true
+    vm1.vm.provider "virtualbox" do |vb|
+      vb.name = "Master-node"
+      vb.gui = false
+      vb.memory = "2024"
+    end
+  end
+
+ config.vm.define "Worker-node-1" do |vm2|
+   vm2.vm.hostname = "Worker-1"
+   vm2.vm.box = "ubuntu/trusty64"
+   vm2.vm.network "private_network", ip: "192.168.33.11"
+   vm2.vm.provider "virtualbox" do |vb|
+     vb.name = "Worker-node-1"
+     vb.gui = false
+     vb.memory = "2024"
+   end 
+ end
+
+ config.vm.define "Worker-node-2" do |vm3|
+   vm3.vm.hostname = "Worker-2"
+   vm3.vm.box = "ubuntu/trusty64"
+   vm3.vm.network "private_network", ip: "192.168.33.12"
+   vm3.vm.provider "virtualbox" do |vb|
+     vb.name = "Worker-node-2"
+     vb.gui = false
+     vb.memory = "2024"
+   end
+ end
+end
+
+9. Command to bring up the Virtual machines.
+   vagrant up
+   vagrant ssh Master-node
+   vagrant ssh Worker-node-1
+   vagrant ssh Worker-node-2
