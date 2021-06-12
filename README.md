@@ -1,6 +1,6 @@
 # Roadmap of Training
 
-* Devops Introductions & Prerequsites
+* Devops Introductions
 * Prerequsites [To setup Lab environment] 
 * Git  
 * Maven 
