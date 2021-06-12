@@ -1,6 +1,6 @@
 Prerequsites [To setup Lab environment]
 
-Road-map
+Road-map :
 
 1. DevOps introduction and Prerequsites.
 2. Git 
@@ -11,12 +11,14 @@ Road-map
 7. Kubernetes
 8. Jenkins
 
-Feedback : You can provide your feedback about training at any point in time :
+Feedback :
+
+You can provide your feedback about training at any point in time :
 https://docs.google.com/forms/d/e/1FAIpQLSd3pY3ubtESrgpMhGO_OAxWe_SthUNXaaQ89zwMc95yLEGx5A/viewform?usp=sf_link
 
 
 
-Contact me:
+Contact me :
 
 Email : vijayprabhu.cs@gmail.com
 Mobile : +918056375375
