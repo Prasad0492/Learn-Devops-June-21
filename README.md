@@ -1,8 +1,8 @@
 # Roadmap of Training
 
-* Devops Introduction
-* Prerequsites [To setup Lab environment] 
-* Git  
+* Devops Introduction [Done]
+* Prerequsites [Done]
+* Git  [In Progress]
 * Maven 
 * Terraform 
 * Ansible
