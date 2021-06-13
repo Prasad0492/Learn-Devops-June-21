@@ -1,7 +1,7 @@
 # Roadmap of Training
 
-* Devops Introduction [Done]
-* Prerequsites [Done]
+* Devops Introduction [Completed]
+* Prerequsites [Completed]
 * Git  [In Progress]
 * Maven 
 * Terraform 
