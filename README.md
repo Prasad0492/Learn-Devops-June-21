@@ -2,7 +2,7 @@
 
 * Devops Introduction [Completed]
 * Prerequsites [Completed]
-* Git  [In Progress]
+* Git  [Completed]
 * Maven 
 * Terraform 
 * Ansible
