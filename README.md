@@ -4,7 +4,7 @@
 * Prerequsites [Completed]
 * Git  [Completed]
 * Maven [Completed]
-* Terraform 
+* Terraform [In Progress]
 * Ansible
 * Docker
 * Kubernetes
