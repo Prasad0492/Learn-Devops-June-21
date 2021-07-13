@@ -3,7 +3,7 @@
 * Devops Introduction [Completed]
 * Prerequsites [Completed]
 * Git  [Completed]
-* Maven 
+* Maven [Completed]
 * Terraform 
 * Ansible
 * Docker
